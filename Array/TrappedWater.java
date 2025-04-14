@@ -49,11 +49,13 @@ public class TrappedWater{
     }
 public static void main(String arg[]){
     int arr[]={4,2,0,6,3,2,5};
-    int r[]=new int[arr.length];
-    int l[]=new int[arr.length];
-    msl(arr,l);
-    msr(arr,r);
-    trappedWater(arr,r,l);
+    int arr1[]={0,1,0,2,1,0,1,3,2,1,2,1};
+    int arr2[]={4,2,0,3,2,5};
+    int r[]=new int[arr2.length];
+    int l[]=new int[arr2.length];
+    msl(arr2,l);
+    msr(arr2,r);
+    trappedWater(arr2,r,l);
     System.out.println();
 }
 }
