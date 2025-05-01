@@ -6,7 +6,7 @@ public static void main(String arg[]){
             System.out.print("*");
         }
         System.out.println();
-        for(int k=0;k<)
+        //for(int k=0;k<)
     }
     System.out.println();
 }
