@@ -24,11 +24,12 @@ public class InsertionSort{
         }
     }
 public static void main(String arg[]){
-    Integer arr[]={5,4,1,3,2};
+    int arr[]={5,4,1,3,2,0,0};
+    int arr1[]={3,-1};
     //Arrays.sort(arr,0,3);
-    Arrays.sort(arr,Collections.reverseOrder());
-    print(arr);
-    //insertionSort(arr);
+   // Arrays.sort(arr,Collections.reverseOrder());
+   // print(arr);
+    insertionSort(arr1);
     System.out.println();
 }
 }
